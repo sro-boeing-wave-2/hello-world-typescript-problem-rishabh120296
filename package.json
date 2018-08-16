@@ -4,12 +4,17 @@
   "description": "Hello World problem using TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc hello-world",
+    "run": "http-server"
   },
   "keywords": [
     "typescript",
     "hello-world"
   ],
   "author": "Nishant Jain",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }
